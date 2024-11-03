@@ -10,7 +10,11 @@ Complete the exercise in the space below:
 */
 
 function isAdult(number){
-    if number >= 18
+    if (number >= 18) {
+        return 'Adult'
+    } else {
+        return 'Minor'
+    }
 }
 
 console.log('Exercise 2 Result:', isAdult(21));
