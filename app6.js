@@ -10,9 +10,9 @@ Complete the exercise in the space below:
 */
 
 function maxOfThree(numA,numB,numC){
-    if ((numA > numB) || (numA > numC)){
+    if ((numA > numB) && (numA > numC)){
         return numA
-    } else if ((numB > numA) || (numB > numC)){
+    } else if ((numB > numA) && (numB > numC)){
         return numB
     } else {
         return numC
